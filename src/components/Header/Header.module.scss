@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #192048;
+
+  .titleContainer {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      flex: 0 1;
+      margin-right: 5px;
+
+      @media (min-width: 768px) {
+        flex: 1;
+      }
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+
+    > * {
+      margin: 5px;
+    }
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}

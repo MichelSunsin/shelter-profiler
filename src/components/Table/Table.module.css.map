@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAWpB;;AAdD,AAKE,OALK,CAKL,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CAKvB;;AAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAVvC,AAKE,OALK,CAKL,eAAe,CAAC;IAMZ,cAAc,EAAE,GAAG;GAEtB",
+    "sources": [
+        "Table.module.scss"
+    ],
+    "names": [],
+    "file": "Table.module.css"
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  > div {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .container {
+    flex-direction: row;
+    margin: 0 150px;
+
+    .mainTableContainer {
+      flex: 2;
+    }
+  }
+}

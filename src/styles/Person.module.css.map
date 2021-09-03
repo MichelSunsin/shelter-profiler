@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,MAAM;CAef;;AAhBD,AAGE,UAHQ,CAGR,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CASvB;;AAfH,AAQI,UARM,CAGR,KAAK,CAKH,gBAAgB,CAAC;EACf,SAAS,EAAE,WAAW;CACvB;;AAVL,AAYI,UAZM,CAGR,KAAK,CASH,MAAM,CAAC;EACL,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "Person.module.scss"
+    ],
+    "names": [],
+    "file": "Person.module.css"
+}

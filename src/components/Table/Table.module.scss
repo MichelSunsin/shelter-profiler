@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .chipsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}
+
+.emptyRecordsContainer {
+  padding: 20px;
+}

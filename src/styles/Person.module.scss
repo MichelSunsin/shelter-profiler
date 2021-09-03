@@ -1,0 +1,40 @@
+.container {
+  max-width: 720px;
+  padding: 10px;
+  margin: 0 auto;
+
+  .form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .formControlContainer {
+      margin-bottom: 10px;
+
+      > div {
+        flex: 1;
+      }
+
+      > div + div {
+        margin-left: 5px;
+      }
+      .formControl {
+        width: 100%;
+      }
+    }
+
+    .buttonContainer {
+      margin-top: 10px;
+      display: flex;
+      flex-flow: row-reverse;
+
+      > button + button {
+        margin-right: 5px;
+      }
+    }
+
+    .error {
+      color: #b20000;
+    }
+  }
+}
